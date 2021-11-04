@@ -1,0 +1,33 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "equipment",
+        "friendly_name": "Equipment"
+    }
+},
+{
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "fitnesswear",
+        "friendly_name": "Fitness Wear"
+    }
+},
+{
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "workout",
+        "friendly_name": "Workout Plans"
+    }
+},
+{
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "nutrition",
+        "friendly_name": "Nutrition Plans"
+    }
+}
+]

@@ -1,0 +1,170 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Xenios USA Fitness Dumbbells",
+        "description": "It's time to improve your fitness training! Xenios USA fitness dumbbells are the perfect gear to complete your set of training tools. The Xenios USA fitness dumbbell is the improved version of the classic fitness dumbbells.",
+        "price": 81.99,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": "https://www.xeniosusa.com/en/pair-of-fitness-dumbbell.html",
+        "image": "/media/dumbbells.jpg"
+    }
+},
+{
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Water Bottle",
+        "description": "Think, focus and concentrate with Gymshark’s 700ml Fruit Infuser.",
+        "price": 15.00,
+        "category": 1,
+        "rating": 4.0,
+        "image_url": "https://eu.gymshark.com/products/gymshark-fruit-infuser-black",
+        "image": "/media/water_bottle.jpg"
+    }
+},
+{
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Skipping Rope",
+        "description": "A focused warm-up or a clinical circuit, an aerobic workout with the Gymshark Skipping Rope is guaranteed to get blood pumping and sweat dripping. Easily portable and subtly branded, take it to the gym with ease.",
+        "price": 20.00,
+        "category": 1,
+        "rating": 3.5,
+        "image_url": "https://eu.gymshark.com/products/gymshark-skipping-rope-black",
+        "image": "/media/skipping_rope.jpg"
+    }
+},
+{
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "ARRIVAL 5 SHORTS",
+        "description": "Train freely and purposefully in the Arrival 5” Shorts. With a short 5-inch inseam alongside a lightweight, sweat-wicking material and supportive adjustable waistband, you can trust that these shorts will allow you to move in every direction with ease and confidence, rep after rep or step after step.",
+        "price": 20.00,
+        "category": 2,
+        "rating": 3.5,
+        "image_url": "https://eu.gymshark.com/products/gymshark-arrival-5-shorts-black-aw21",
+        "image": "/media/shorts_men.jpg"
+    }
+},
+{
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "FIT SEAMLESS SHORTS",
+        "description": "Your favourite Fit Leggings made in to your new favourite shorts. Designed with the same soft blend seamless knit to provide that stretchy, supple fit with a stay-put elasticated waistband and flatlock seams to prevent chafing.",
+        "price": 30.00,
+        "category": 2,
+        "rating": 2.5,
+        "image_url": "https://eu.gymshark.com/products/gymshark-fit-shorts-black-white",
+        "image": "/media/shorts_women.jpg"
+    }
+},
+{
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Sports Bra",
+        "description": "We have developed this light support sports bra for pilates, gentle gym activities and strength training.",
+        "price": 10.00,
+        "category": 2,
+        "rating": 3.7,
+        "image_url": "https://www.decathlon.ie/bras/309915-72862-women-s-cotton-sports-bra-black.html",
+        "image": "/media/sports_bra.jpg"
+    }
+},
+{
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "30 Day Strength Traning",
+        "description": "This month's plan is designed over a 30-day period — we're giving you today off to recover from last night's festivities. The workouts are separated into three categories: Upper body, lower body and core. The upper body exercises focus on the arms, chest and muscles of the upper back and shoulders. The lower body exercises focus on the legs and glutes. The core exercises focus on the muscles that run along the spine, the inner and outer thighs, hips and the abs.",
+        "price": 30.00,
+        "category": 3,
+        "rating": 4.8,
+        "image_url": "https://www.nbcnews.com/better/lifestyle/30-day-strength-training-routine-no-equipment-required-ncna988936",
+        "image": "/media/30_day_strength.png"
+    }
+},
+{
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Warrior Workout",
+        "description": "Uk Outdoor Fitness have ran and entered team in Total Warrior over the last 4 years. We have taken teams of over 100. We have won the team event 3 times out 4 and help many members and participants complete the races which has been a huge goal in itself.  Whether you are a beginner or elite Athlete we believe everyone can enter this race and we train you up through our classes and support with the experience of helping 100s of runners get across the finish",
+        "price": 60.00,
+        "category": 3,
+        "rating": 5.0,
+        "image_url": "https://ukoutdoorfitness.com/bootcamp/total-warrior-workout-plan",
+        "image": "/media/warrior_workout.jpg"
+    }
+},
+{
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Cardio HIIT",
+        "description": "This 30-day cardio HIIT challenge will boost your heart rate, increase your cardiovascular fitness, and burn fat like no other workout before.",
+        "price": 15.00,
+        "category": 3,
+        "rating": 2.5,
+        "image_url": "https://www.shape.com/fitness/workouts/cardio-hiit-heart-rate-challenge",
+        "image": "/media/cardio_hiit.jpg"
+    }
+},
+{
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "30 Day Meal Plan",
+        "description": "This meal plan is a loose adaption from the 21 Day Fix meal plan and the Countdown to Competition meal plan in 21 Day Fix Extreme. You’ll notice this in the container count under each meal.  Each day is approximately 1200-1400 calories because I fall into the first bracket on the plan.",
+        "price": 30.00,
+        "category": 4,
+        "rating": 5.0,
+        "image_url": "https://soreyfitness.com/fitness/masters-chisel-calendar-meal-plan/",
+        "image": "/media/30_day_meal.png"
+    }
+},
+
+{
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "VEGAN BODYBUILDING",
+        "description": "The cliche bodybuilding images of steak for breakfast and huge tubs of whey protein are not encouraging to a vegan with big body goals. And neither is constantly being told your vegan diet won’t give you enough protein to build muscle. Don’t let that put you off. It is definitely possible to bulk up and add muscle mass on a vegan diet. With some small changes, your regular vegan diet can become your bodybuilding vegan diet.",
+        "price": 50.00,
+        "category": 4,
+        "rating": 3.4,
+        "image_url": "https://www.vivolife.co.uk/blogs/news/a-nutritionist-s-guide-to-a-vegan-bodybuilding-diet",
+        "image": "/media/vegan_plan.jpg"
+    }
+},
+{
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Lean Muscle",
+        "description": "This plan places a heavy emphasis on leafy greens and veggies for the remainder of the day—a practical way to cut both calories and carbs.",
+        "price": 25.00,
+        "category": 4,
+        "rating": 2.9,
+        "image_url": "https://healthyrecipesforweghtloss.blogspot.com/2019/08/best-7-day-diet-plan-for-weight-loss.html",
+        "image": "/media/lean_muscle.JPG"
+    }
+}
+]
