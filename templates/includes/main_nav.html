@@ -6,42 +6,39 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
-                <a href="" class="dropdown-item">All Products</a>
-            </div>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+            </div>  
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-workouts-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=workout" id="all-workouts-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Workout Plans
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-workouts-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
 
-            </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-nutritions-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=nutrition" id="all-nutritions-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Nutrition Plans
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-nutritions-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-            </div>
+
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-equipments-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=equipment" id="all-equipments-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Home Equipment
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-equipments-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-            </div>
+            
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=fitnesswear" id="all-fitnesswear-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Activewear
+            </a>
+            
         </li>
     </ul>
 </div>
