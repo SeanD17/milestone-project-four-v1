@@ -1,0 +1,1 @@
+web: gunicorn dev_muscles.wsgi:application
