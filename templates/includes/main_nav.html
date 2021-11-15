@@ -10,35 +10,44 @@
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div>  
+            </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=workout" id="all-workouts-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Fitnesswear
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+                <a href="{% url 'products' %}?category=fitnesswear" class="dropdown-item">Fitnessewear</a>
+
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="equipment-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Equipment
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="equipment-link">
+                <a href="{% url 'products' %}?category=equipment" class="dropdown-item">Equipment</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="workout-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Workout Plans
             </a>
-
+            <div class="dropdown-menu border-0" aria-labelledby="workout-link">
+                <a href="{% url 'products' %}?category=workout" class="dropdown-item">Workout Plans</a>
+            </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=nutrition" id="all-nutritions-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="nutrition-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Nutrition Plans
             </a>
-
-        </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=equipment" id="all-equipments-link"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Home Equipment
-            </a>
-            
-        </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=fitnesswear" id="all-fitnesswear-link"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Activewear
-            </a>
-            
+            <div class="dropdown-menu border-0" aria-labelledby="nutrition-link">
+                <a href="{% url 'products' %}?category=nutrition" class="dropdown-item">Nutrition Plans</a>
+            </div>
         </li>
     </ul>
 </div>
