@@ -1,1 +1,1 @@
-web: gunicorn dev_muscles.wsgi:application
+web: gunicorn devmuscles.wsgi:application
