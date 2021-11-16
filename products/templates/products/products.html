@@ -4,7 +4,7 @@
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
-            <div class="col-12"></div>
+            <div class="col"></div>
         </div>
     </div>
 {% endblock %}
@@ -13,7 +13,7 @@
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 text-center mt-3">
+            <div class="col text-center mt-3">
                 <h2 class="logo-font">Products</h2>
                 {% for c in current_categories %}
                     <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
@@ -24,9 +24,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="product-container col-12 offset-1">
+            <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
-                    <div class="col-12 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
+                    <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                         <div class="sort-select-wrapper w-50">
                             <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
                                 <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
@@ -41,7 +41,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-12 order-md-first">
+                    <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
                                 <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="row">
                     {% for product in products %}
-                        <div class="col-12">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
-                                        <div class="col-12">
+                                        <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
@@ -94,22 +94,22 @@
                             </div>
                         </div>
                         {% if forloop.counter|divisibleby:1 %}
-                            <div class="col-12">
+                            <div class="col-12 d-sm-none mb-5">
                                 <hr>
                             </div>
                         {% endif %}                        
                         {% if forloop.counter|divisibleby:2 %}
-                            <div class="col-12">
+                            <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
                                 <hr>
                             </div>
                         {% endif %}
                         {% if forloop.counter|divisibleby:3 %}
-                            <div class="col-12">
+                            <div class="col-12 d-none d-lg-block d-xl-none mb-5">
                                 <hr>
                             </div>
                         {% endif %}
                         {% if forloop.counter|divisibleby:4 %}
-                            <div class="col-12">
+                            <div class="col-12 d-none d-xl-block mb-5">
                                 <hr>
                             </div>
                         {% endif %}

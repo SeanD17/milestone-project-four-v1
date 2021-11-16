@@ -24,7 +24,7 @@ SECRET_KEY = 'fsewrfawef'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['milestone-project-four-muscles.herokuapp.com', gi'localhost']
+ALLOWED_HOSTS = ['milestone-project-four-muscles.herokuapp.com', 'localhost']
 
 
 # Application definition
