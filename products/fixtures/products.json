@@ -9,7 +9,7 @@
         "category": 1,
         "rating": 4.6,
         "image_url": "https://www.xeniosusa.com/en/pair-of-fitness-dumbbell.html",
-        "image": "dumbbells.jpg"
+        "image": "media/dumbbells.jpg"
     }
 },
 {
@@ -23,7 +23,7 @@
         "category": 1,
         "rating": 4.0,
         "image_url": "https://eu.gymshark.com/products/gymshark-fruit-infuser-black",
-        "image": "water_bottle.jpg"
+        "image": "media/water_bottle.jpg"
     }
 },
 {
@@ -37,7 +37,7 @@
         "category": 1,
         "rating": 3.5,
         "image_url": "https://eu.gymshark.com/products/gymshark-skipping-rope-black",
-        "image": "skipping_rope.jpg"
+        "image": "media/skipping_rope.jpg"
     }
 },
 {
@@ -51,7 +51,7 @@
         "category": 2,
         "rating": 3.5,
         "image_url": "https://eu.gymshark.com/products/gymshark-arrival-5-shorts-black-aw21",
-        "image": "shorts_men.jpg"
+        "image": "media/shorts_men.jpg"
     }
 },
 {
@@ -59,13 +59,13 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001340155",
-        "name": "Fit Seamless Shorts",
+        "name": "FIT SEAMLESS SHORTS",
         "description": "Your favourite Fit Leggings made in to your new favourite shorts. Designed with the same soft blend seamless knit to provide that stretchy, supple fit with a stay-put elasticated waistband and flatlock seams to prevent chafing.",
         "price": 30.00,
         "category": 2,
         "rating": 2.5,
         "image_url": "https://eu.gymshark.com/products/gymshark-fit-shorts-black-white",
-        "image": "shorts_women.jpg"
+        "image": "media/shorts_women.jpg"
     }
 },
 {
@@ -79,7 +79,7 @@
         "category": 2,
         "rating": 3.7,
         "image_url": "https://www.decathlon.ie/bras/309915-72862-women-s-cotton-sports-bra-black.html",
-        "image": "sports_bra.jpg"
+        "image": "media/sports_bra.jpg"
     }
 },
 {
@@ -93,7 +93,7 @@
         "category": 3,
         "rating": 4.8,
         "image_url": "https://www.nbcnews.com/better/lifestyle/30-day-strength-training-routine-no-equipment-required-ncna988936",
-        "image": "30_day_strength.png"
+        "image": "media/30_day_strength.png"
     }
 },
 {
@@ -107,7 +107,7 @@
         "category": 3,
         "rating": 5.0,
         "image_url": "https://ukoutdoorfitness.com/bootcamp/total-warrior-workout-plan",
-        "image": "warrior_workout.jpg"
+        "image": "media/warrior_workout.jpg"
     }
 },
 {
@@ -121,7 +121,7 @@
         "category": 3,
         "rating": 2.5,
         "image_url": "https://www.shape.com/fitness/workouts/cardio-hiit-heart-rate-challenge",
-        "image": "cardio_hiit.jpg"
+        "image": "media/cardio_hiit.jpg"
     }
 },
 {
@@ -135,7 +135,7 @@
         "category": 4,
         "rating": 5.0,
         "image_url": "https://soreyfitness.com/fitness/masters-chisel-calendar-meal-plan/",
-        "image": "30_day_meal.png"
+        "image": "media/30_day_meal.png"
     }
 },
 
@@ -144,13 +144,13 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001340155",
-        "name": "Vegan Bodybuilding",
+        "name": "VEGAN BODYBUILDING",
         "description": "The cliche bodybuilding images of steak for breakfast and huge tubs of whey protein are not encouraging to a vegan with big body goals. And neither is constantly being told your vegan diet won’t give you enough protein to build muscle. Don’t let that put you off. It is definitely possible to bulk up and add muscle mass on a vegan diet. With some small changes, your regular vegan diet can become your bodybuilding vegan diet.",
         "price": 50.00,
         "category": 4,
         "rating": 3.4,
         "image_url": "https://www.vivolife.co.uk/blogs/news/a-nutritionist-s-guide-to-a-vegan-bodybuilding-diet",
-        "image": "vegan_plan.jpg"
+        "image": "media/vegan_plan.jpg"
     }
 },
 {
@@ -164,7 +164,7 @@
         "category": 4,
         "rating": 2.9,
         "image_url": "https://healthyrecipesforweghtloss.blogspot.com/2019/08/best-7-day-diet-plan-for-weight-loss.html",
-        "image": "lean_muscle.JPG"
+        "image": "media/lean_muscle.JPG"
     }
 }
 ]
