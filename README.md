@@ -23,3 +23,23 @@ The project has a couple of pages:
 [Link to website](https://milestone-project-four-muscles.herokuapp.com/) here to see the website.
 
 ![Website](images/DevMuscles.png)
+
+## Table of Contents
+> - [UX](#ux)
+> - [User Stories](#user-stories)
+> - [Strategy](#strategy)
+> - [Scope](#scope)
+> - [Structure](#structure)
+> - [Surface](#surface)
+> - [Icons](#icons)
+> - [Skeleton](#wireframes)
+> - [Features](#features)
+> - [Features Left to Implement](#features-left-to-implement)
+> - [Technologies Used](#technologies-used)
+> - [Libraries](#libraries)
+> - [Version Control](#version-control)
+> - [Other](#other)
+> - [Testing](#testing)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
+> - [Acknowledgments](#acknowledgments)
