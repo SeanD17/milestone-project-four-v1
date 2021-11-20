@@ -86,7 +86,49 @@ The project has a couple of pages:
 
 
 ## Deployment:
+I did the following to deploy my site:
 
+Removed all my hard-coded environment variables. 
+
+These were placed in the Heroku Config Vars for production.
+
+Ensured the applications requirements.txt is up-to-date with all the latest packages installed for my app being noted on this file.
+
+The command to update requirements  is pip3 freeze > requirements.txt
+
+Ran the command python manage.py loaddata for the categories and products files in the fixtures folder to add them to the Django database 
+
+Ran the command python manage.py collectstatic in order to collect all the images, JavaScript and CSS files in the project and place them into the static files to be used for Heroku
+
+Set up the Procfile - A Procfile is required by Heroku in order to tell the service worker what command to run for my application to start.
+
+Set Flask's debugging to False.
+
+Pushed all my latest production ready code to GitHub ready for deployment via Heroku's GitHub function where you can deploy from GitHub the production ready app.
+
+Upon successful deployment Heroku will give you the URL that is hosted your app
+
+If you want to create a copy of this site on GitHub,do the following:
+
+To access the code, it can be run locally by either selecting "clone" which provides an URL one can use on their local machine or "download" which is where one can download the zip file on to their machine.
+
+Install the projects requirements.txt using pip3 install -r requirements.txt
+
+You will need to update a few environment variables before you can run the app.
+
+os.environ.setdefault("DATABASE_URL", "")
+
+os.environ.setdefault("EMAIL_HOST_PASS", "")
+
+os.environ.setdefault("EMAIL_HOST_USER", "")
+
+os.environ.setdefault("SECRET_KEY", "")
+
+os.environ.setdefault("STRIPE_PUBLIC_KEY", "")
+
+os.environ.setdefault("STRIPE_SECRET_KEY", "")
+
+Once the above steps are complete you can try run the application using python3 main.py
 
 ## Credits:
 
@@ -96,31 +138,31 @@ All text content in this website was written by me.
 ## Media:
 The photos used in this site were obtained from:
 
-Homepage background gotten<a href="https://www.google.com/search?hl=en-IE&tbs=simg:CAQSiQIJPpcIGl5sbUYa_1QELELCMpwgaOgo4CAQSFM0hvTL-PK84iw--HokslR36IeAeGhrv4gxneoTp6JfsCfEo0i-klwsaeYO-5uiihCAFMAQMCxCOrv4IGgoKCAgBEgRrIAfMDAsQne3BCRqdAQojCg9mcmVlIHdlaWdodCBiYXLapYj2AwwKCi9tLzBoOG00YmYKGgoHYmFyYmVsbNqliPYDCwoJL20vMDNfMTYzChkKB3dlaWdodHPapYj2AwoKCC9tLzBoenN2Ch8KC2FjdGl2ZSB0YW5r2qWI9gMMCgovbS8waGdudGd3Ch4KDHBvd2VybGlmdGluZ9qliPYDCgoIL20vMGg1dDQM&q=person+lifting+weights&tbm=isch&sa=X&ved=2ahUKEwj_n_yX86f0AhWUoFwKHUt7BvQQwg4oAHoECAEQMg&biw=1366&bih=587&dpr=1>here</a>
+Homepage background gotten<a href="https://www.google.com/search?hl=en-IE&tbs=simg:CAQSiQIJPpcIGl5sbUYa_1QELELCMpwgaOgo4CAQSFM0hvTL-PK84iw--HokslR36IeAeGhrv4gxneoTp6JfsCfEo0i-klwsaeYO-5uiihCAFMAQMCxCOrv4IGgoKCAgBEgRrIAfMDAsQne3BCRqdAQojCg9mcmVlIHdlaWdodCBiYXLapYj2AwwKCi9tLzBoOG00YmYKGgoHYmFyYmVsbNqliPYDCwoJL20vMDNfMTYzChkKB3dlaWdodHPapYj2AwoKCC9tLzBoenN2Ch8KC2FjdGl2ZSB0YW5r2qWI9gMMCgovbS8waGdudGd3Ch4KDHBvd2VybGlmdGluZ9qliPYDCgoIL20vMGg1dDQM&q=person+lifting+weights&tbm=isch&sa=X&ved=2ahUKEwj_n_yX86f0AhWUoFwKHUt7BvQQwg4oAHoECAEQMg&biw=1366&bih=587&dpr=1"> here</a>
 
-Xenios USA Fitness Dumbbells gotten<a href="https://www.xeniosusa.com/en/pair-of-fitness-dumbbell.html">here</a>
+Xenios USA Fitness Dumbbells gotten<a href="https://www.xeniosusa.com/en/pair-of-fitness-dumbbell.html"> here</a>
 
-Water Bottle gotten<a href="https://eu.gymshark.com/products/gymshark-fruit-infuser-black">here</a>
+Water Bottle gotten<a href="https://eu.gymshark.com/products/gymshark-fruit-infuser-black"> here</a>
 
-Skipping Rope gotten<a href="https://eu.gymshark.com/products/gymshark-skipping-rope-black">here</a>
+Skipping Rope gotten<a href="https://eu.gymshark.com/products/gymshark-skipping-rope-black"> here</a>
 
 Arrival 5 Shorts gotten<a href="https://eu.gymshark.com/products/gymshark-arrival-5-shorts-black-aw21">here</a>
 
-Fit Seamless Shorts gotten<a href="https://eu.gymshark.com/products/gymshark-fit-shorts-black-white">here</a>
+Fit Seamless Shorts gotten<a href="https://eu.gymshark.com/products/gymshark-fit-shorts-black-white"> here</a>
 
-Sports Bra gotten<a href="https://www.decathlon.ie/bras/309915-72862-women-s-cotton-sports-bra-black.html">here</a>
+Sports Bra gotten<a href="https://www.decathlon.ie/bras/309915-72862-women-s-cotton-sports-bra-black.html"> here</a>
 
-30 Day Strength Traning gotten<a href="https://www.nbcnews.com/better/lifestyle/30-day-strength-training-routine-no-equipment-required-ncna988936">here</a>
+30 Day Strength Traning gotten<a href="https://www.nbcnews.com/better/lifestyle/30-day-strength-training-routine-no-equipment-required-ncna988936"> here</a>
 
-Warrior Workout gotten<a href="https://ukoutdoorfitness.com/bootcamp/total-warrior-workout-plan">here</a>
+Warrior Workout gotten<a href="https://ukoutdoorfitness.com/bootcamp/total-warrior-workout-plan"> here</a>
 
-Cardio HIIT gotten<a href="https://www.shape.com/fitness/workouts/cardio-hiit-heart-rate-challenge">here</a>
+Cardio HIIT gotten<a href="https://www.shape.com/fitness/workouts/cardio-hiit-heart-rate-challenge"> here</a>
 
-30 Day Meal Plan gotten<a href="https://soreyfitness.com/fitness/masters-chisel-calendar-meal-plan/">here</a>
+30 Day Meal Plan gotten<a href="https://soreyfitness.com/fitness/masters-chisel-calendar-meal-plan/"> here</a>
 
-Vegan bodybuilding gotten<a href="https://www.vivolife.co.uk/blogs/news/a-nutritionist-s-guide-to-a-vegan-bodybuilding-diet">here</a>
+Vegan bodybuilding gotten<a href="https://www.vivolife.co.uk/blogs/news/a-nutritionist-s-guide-to-a-vegan-bodybuilding-diet"> here</a>
 
-Lean Muscle diet plan gotten<a href="https://healthyrecipesforweghtloss.blogspot.com/2019/08/best-7-day-diet-plan-for-weight-loss.html">here</a>
+Lean Muscle diet plan gotten<a href="https://healthyrecipesforweghtloss.blogspot.com/2019/08/best-7-day-diet-plan-for-weight-loss.html"> here</a>
   
   
 ## Acknowledgments:
