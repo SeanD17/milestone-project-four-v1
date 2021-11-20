@@ -45,7 +45,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001340155",
-        "name": "ARRIVAL 5 SHORTS",
+        "name": "Arrival 5 Shorts",
         "description": "Train freely and purposefully in the Arrival 5” Shorts. With a short 5-inch inseam alongside a lightweight, sweat-wicking material and supportive adjustable waistband, you can trust that these shorts will allow you to move in every direction with ease and confidence, rep after rep or step after step.",
         "price": 20.00,
         "category": 2,
@@ -59,7 +59,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001340155",
-        "name": "FIT SEAMLESS SHORTS",
+        "name": "Fit Seamless Shorts",
         "description": "Your favourite Fit Leggings made in to your new favourite shorts. Designed with the same soft blend seamless knit to provide that stretchy, supple fit with a stay-put elasticated waistband and flatlock seams to prevent chafing.",
         "price": 30.00,
         "category": 2,
@@ -144,7 +144,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001340155",
-        "name": "VEGAN BODYBUILDING",
+        "name": "Vegan Bodybuilding",
         "description": "The cliche bodybuilding images of steak for breakfast and huge tubs of whey protein are not encouraging to a vegan with big body goals. And neither is constantly being told your vegan diet won’t give you enough protein to build muscle. Don’t let that put you off. It is definitely possible to bulk up and add muscle mass on a vegan diet. With some small changes, your regular vegan diet can become your bodybuilding vegan diet.",
         "price": 50.00,
         "category": 4,
