@@ -43,3 +43,85 @@ The project has a couple of pages:
 > - [Deployment](#deployment)
 > - [Credits](#credits)
 > - [Acknowledgments](#acknowledgments)
+
+## UX:
+
+## User Stories:
+
+
+## Strategy:
+
+
+## Scope:
+
+
+## Structure:
+
+
+## Surface:
+
+
+## Icons:
+
+                               
+## Features:
+
+<p align="center"><strong>Existing Features:</strong>
+
+## Features Left to Implement:
+
+## Technologies Used:
+
+
+
+## Libraries:
+
+
+## Version Control:
+
+## Other:
+
+
+## Testing:
+
+
+## Deployment:
+
+
+## Credits:
+
+## Content:
+All text content in this website was written by me.
+
+## Media:
+The photos used in this site were obtained from:
+
+Homepage background gotten<a href="https://www.google.com/search?hl=en-IE&tbs=simg:CAQSiQIJPpcIGl5sbUYa_1QELELCMpwgaOgo4CAQSFM0hvTL-PK84iw--HokslR36IeAeGhrv4gxneoTp6JfsCfEo0i-klwsaeYO-5uiihCAFMAQMCxCOrv4IGgoKCAgBEgRrIAfMDAsQne3BCRqdAQojCg9mcmVlIHdlaWdodCBiYXLapYj2AwwKCi9tLzBoOG00YmYKGgoHYmFyYmVsbNqliPYDCwoJL20vMDNfMTYzChkKB3dlaWdodHPapYj2AwoKCC9tLzBoenN2Ch8KC2FjdGl2ZSB0YW5r2qWI9gMMCgovbS8waGdudGd3Ch4KDHBvd2VybGlmdGluZ9qliPYDCgoIL20vMGg1dDQM&q=person+lifting+weights&tbm=isch&sa=X&ved=2ahUKEwj_n_yX86f0AhWUoFwKHUt7BvQQwg4oAHoECAEQMg&biw=1366&bih=587&dpr=1>here</a>
+
+Xenios USA Fitness Dumbbells gotten<a href="https://www.xeniosusa.com/en/pair-of-fitness-dumbbell.html">here</a>
+
+Water Bottle gotten<a href="https://eu.gymshark.com/products/gymshark-fruit-infuser-black">here</a>
+
+Skipping Rope gotten<a href="https://eu.gymshark.com/products/gymshark-skipping-rope-black">here</a>
+
+Arrival 5 Shorts gotten<a href="https://eu.gymshark.com/products/gymshark-arrival-5-shorts-black-aw21">here</a>
+
+Fit Seamless Shorts gotten<a href="https://eu.gymshark.com/products/gymshark-fit-shorts-black-white">here</a>
+
+Sports Bra gotten<a href="https://www.decathlon.ie/bras/309915-72862-women-s-cotton-sports-bra-black.html">here</a>
+
+30 Day Strength Traning gotten<a href="https://www.nbcnews.com/better/lifestyle/30-day-strength-training-routine-no-equipment-required-ncna988936">here</a>
+
+Warrior Workout gotten<a href="https://ukoutdoorfitness.com/bootcamp/total-warrior-workout-plan">here</a>
+
+Cardio HIIT gotten<a href="https://www.shape.com/fitness/workouts/cardio-hiit-heart-rate-challenge">here</a>
+
+30 Day Meal Plan gotten<a href="https://soreyfitness.com/fitness/masters-chisel-calendar-meal-plan/">here</a>
+
+Vegan bodybuilding gotten<a href="https://www.vivolife.co.uk/blogs/news/a-nutritionist-s-guide-to-a-vegan-bodybuilding-diet">here</a>
+
+Lean Muscle diet plan gotten<a href="https://healthyrecipesforweghtloss.blogspot.com/2019/08/best-7-day-diet-plan-for-weight-loss.html">here</a>
+  
+  
+## Acknowledgments:
+I received inspiration from an Bootstrap mini project that was taught to us as part of our course.
