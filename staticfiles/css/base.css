@@ -7,6 +7,7 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+    padding-top: 1%;
 }
 
 /* from Bulma */
@@ -77,7 +78,7 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	position: fixed;
+	position: relative;
 	background: white;
 	z-index: -1;
 }
@@ -90,7 +91,7 @@ a.category-badge > span.badge:hover {
 .btt-button {
     height: 42px;
     width: 42px;
-    position: fixed;
+    position: relative;
     bottom: 10px;
     right: 10px;
 }
@@ -108,7 +109,7 @@ input[name='q']::placeholder {
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
-    position: fixed;
+    position: relative;
     top: 72px;
     right: 15px;
     z-index: 99999999999;
@@ -129,7 +130,7 @@ input[name='q']::placeholder {
     border-left: 4px solid transparent;
     border-right: 4px solid transparent; 
     border-bottom: 10px solid black;
-    position: absolute;
+    position: relative;
     top: -10px;
     right: 36px;
 }
@@ -244,7 +245,7 @@ input[name='q']::placeholder {
 }
 
 .btn-file input[type="file"] {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     min-width: 100%;
@@ -268,7 +269,7 @@ input[name='q']::placeholder {
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
-        position: fixed;
+        position: relative;
         top: 0;
         right: 0;
         left: 0;
