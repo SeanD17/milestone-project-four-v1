@@ -103,25 +103,7 @@ Used for the collecting of and storing of staticfiles.
 
 HTML - [W3C](https://validator.w3.org/) - Markup Validation.
 
-![Add Book](static/images/add_book_validation.png)
 
-![Add Category](static/images/add_category_validation.png)
-
-![Base](static/images/base_validation.png)
-
-![Books](static/images/books_validation.png)
-
-![Categories](static/images/categories_validation.png)
-
-![Edit Book](static/images/edit_book_validation.png)
-
-![Edit Category](static/images/edit_category_validation.png)
-
-![Login](static/images/login_validation.png)
-
-![Profile](static/images/profile_validation.png)
-
-![Register](static/images/register_validation.png)
 
 <p align="center"><strong> CSS Validation</strong></p>
 
