@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpR
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
+from django.forms import ModelForm
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
@@ -10,6 +11,7 @@ from products.models import Product
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 from bag.contexts import bag_contents
+
 
 import stripe
 import json
@@ -130,7 +132,7 @@ def checkout(request):
         messages.warning(request, 'Stripe public key is missing. \
             Did you forget to set it in your environment?')
 
-    template = 'checkout/checkout.html'
+    template = 'checkout.html'
     context = {
         'order_form': order_form,
         'stripe_public_key': stripe_public_key,
@@ -175,7 +177,7 @@ def checkout_success(request, order_number):
     if 'bag' in request.session:
         del request.session['bag']
 
-    template = 'checkout/checkout_success.html'
+    template = 'checkout_success.html'
     context = {
         'order': order,
     }
