@@ -1,3 +1,3 @@
-from django.db import models
+from django.test import TestCase
 
-# Create your models here.
+# Create your tests here.

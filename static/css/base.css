@@ -6,7 +6,7 @@ body {
     background: url('/media/fitness_background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: rgb(163, 25, 25);
+    color: yellowgreen;
     font-family: 'Lato';
 }
 
