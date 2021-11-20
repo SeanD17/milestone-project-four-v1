@@ -28,11 +28,7 @@ The project has a couple of pages:
 > - [UX](#ux)
 > - [User Stories](#user-stories)
 > - [Strategy](#strategy)
-> - [Scope](#scope)
 > - [Structure](#structure)
-> - [Surface](#surface)
-> - [Icons](#icons)
-> - [Skeleton](#wireframes)
 > - [Features](#features)
 > - [Features Left to Implement](#features-left-to-implement)
 > - [Technologies Used](#technologies-used)
@@ -50,40 +46,92 @@ The project has a couple of pages:
 
 
 ## Strategy:
-
-
-## Scope:
+I wanted to create a user friendly website that would have Create,Update,Read and Delete (CRUD) functionality as well as site that would accept payments.
 
 
 ## Structure:
 
 
 ## Surface:
-
-
-## Icons:
-
                                
 ## Features:
 
 <p align="center"><strong>Existing Features:</strong>
 
-## Features Left to Implement:
 
 ## Technologies Used:
+[HTML](https://html.com/)
+Used to create the structure of the web site.
 
+[CSS](https://www.w3schools.com/css/css_intro.asp)
+Used to style the website.
 
+[Python](https://www.python.org/)
+Used to create the CRUD functionality.
+
+[Bootstrap](https://getbootstrap.com/)
+Used to design the site for mobile users and for other features.
+
+[Stripe](https://stripe.com/)
+Used to handle credit card payments on the site
+
+[Heroku](https://id.heroku.com/login)
+Used to host the site.
 
 ## Libraries:
+[Django](https://www.djangoproject.com/)
+Used for the main development of the site.
 
+[WhiteNoise](http://whitenoise.evans.io/en/stable/#)
+Used for the collecting of and storing of staticfiles.
 
 ## Version Control:
+[Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
+
+[Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub.
 
 ## Other:
+[Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
 
+[W3Schools](https://www.w3schools.com/) - used as a general resource for CSS and coding tips.
+
+[StackOverFlow](https://stackoverflow.com/) - used as a general resource for layout tips or questions.
 
 ## Testing:
 
+<p align="center"><strong> HTML Validation</strong></p>
+
+HTML - [W3C](https://validator.w3.org/) - Markup Validation.
+
+![Add Book](static/images/add_book_validation.png)
+
+![Add Category](static/images/add_category_validation.png)
+
+![Base](static/images/base_validation.png)
+
+![Books](static/images/books_validation.png)
+
+![Categories](static/images/categories_validation.png)
+
+![Edit Book](static/images/edit_book_validation.png)
+
+![Edit Category](static/images/edit_category_validation.png)
+
+![Login](static/images/login_validation.png)
+
+![Profile](static/images/profile_validation.png)
+
+![Register](static/images/register_validation.png)
+
+<p align="center"><strong> CSS Validation</strong></p>
+
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation.
+
+[Validation Result]()
+
+<p align="center"><strong>Project Bugs and Solutions</strong></p>
+
+<p align="center"><strong>Remaining bugs</strong></p>
 
 ## Deployment:
 I did the following to deploy my site:
