@@ -29,9 +29,6 @@ The project has a couple of pages:
 > - [User Stories](#user-stories)
 > - [Strategy](#strategy)
 > - [Scope](#scope)
-> - [Structure](#structure)
-> - [Features](#features)
-> - [Features Left to Implement](#features-left-to-implement)
 > - [Technologies Used](#technologies-used)
 > - [Libraries](#libraries)
 > - [Version Control](#version-control)
@@ -44,27 +41,75 @@ The project has a couple of pages:
 ## UX:
 
 ## User Stories:
+As a User/Admin:
 
+"I want to see all the products on the site"
+
+![Products](images/all_products.png)
+
+As a User:
+
+"I want to be able to signin into the site using an account i created"
+
+![Signin](images/user_signin.png)
+
+![Signin Result](images/user_signin_result.png)
+
+"I want to be able to signout of the site"
+
+![Signout](images/user_signout.png)
+
+![Signout Result](images/user_signout_result.png)
+
+"I want to be able to add a product i would like to buy on the site to a shopping bag"
+
+![Add Product to Bag](images/user_add_to_bag.png)
+
+![Add Result](images/user_add_to_bag_result.png)
+
+"I want to be able to search for a product on the site"
+
+![Search Product](images/user_product_search.png)
+
+![Search Result](images/user_product_search_result.png)
+
+"I want to be able to go to my profile and update my delivery details and see any orders i have made"
+
+![Profile](images/user_profile.png)
+
+"I want to see a product in more detail"
+
+![Product Detail](images/user_product_detail.png)
+
+"I want to be able to edit my shopping bag before it goes to checkout"
+
+![Edit Shopping Bag](images/user_edit_bag.png)
+
+"I want to look for products in certain areas instead of having to look at all of them"
+
+![Product Categories](images/user_products_navigation.png)
+
+As an Admin:
+
+"I want to be able to delete products from the site"
+
+![Delete Product](images/admin_delete_products.png)
+
+![Delete Product Message](images/admin_delete_product_message.png)
+
+"I want to be able to edit products on the site"
+
+![Edit Products](images/admin_edit_products.png)
 
 ## Strategy:
 I wanted to create a user friendly website that would have Create,Update,Read and Delete (CRUD) functionality as well as site that would accept payments.
 
 ## Scope:
-I created a database for the products and categories,see below schema
+I created a database for the products and categories,see below schemas
 
 ![Category Schema](images/categories_db.png)
 
 ![Product Schema](images/products_db.png)
-
-## Structure:
-
-
-## Surface:
-                               
-## Features:
-
-<p align="center"><strong>Existing Features:</strong>
-
 
 ## Technologies Used:
 [HTML](https://html.com/)
@@ -90,7 +135,7 @@ Used to host the site.
 Used for the main development of the site.
 
 [WhiteNoise](http://whitenoise.evans.io/en/stable/#)
-Used for the collecting of and storing of staticfiles.
+Used for the collecting and storing of staticfiles.
 
 ## Version Control:
 [Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
@@ -163,7 +208,7 @@ Ran the command python manage.py collectstatic in order to collect all the image
 
 Set up the Procfile - A Procfile is required by Heroku in order to tell the service worker what command to run for my application to start.
 
-Set Flask's debugging to False.
+Set Django's debugging to False.
 
 Pushed all my latest production ready code to GitHub ready for deployment via Heroku's GitHub function where you can deploy from GitHub the production ready app.
 
