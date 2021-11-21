@@ -28,6 +28,7 @@ The project has a couple of pages:
 > - [UX](#ux)
 > - [User Stories](#user-stories)
 > - [Strategy](#strategy)
+> - [Scope](#scope)
 > - [Structure](#structure)
 > - [Features](#features)
 > - [Features Left to Implement](#features-left-to-implement)
@@ -48,6 +49,12 @@ The project has a couple of pages:
 ## Strategy:
 I wanted to create a user friendly website that would have Create,Update,Read and Delete (CRUD) functionality as well as site that would accept payments.
 
+## Scope:
+I created a database for the products and categories,see below schema
+
+![Category Schema](images/categories_db.png)
+
+![Product Schema](images/products_db.png)
 
 ## Structure:
 
@@ -99,24 +106,45 @@ Used for the collecting of and storing of staticfiles.
 
 ## Testing:
 <p align="center"><strong>Manual Testing of the site</strong></p>
+The project was tested on a smartphone, a Desktop computer and a Samsung Tablet.
 
-<p align="center"><strong>User Stories Testing</strong></p>
-
-<p align="center"><strong>Site Responsiveness</strong></p>
+It was also tested on 3 web browsers: Google Chrome, Mozilla Firefox and Microsoft Edge.
 
 <p align="center"><strong> HTML Validation</strong></p>
 
 HTML - [W3C](https://validator.w3.org/) - Markup Validation.
 
+![Homepage](images/html_validation.png)
+
+![Add Products](images/html_validation_add_product.png)
+
+![Shopping Bag](images/html_validation_bag.png)
+
+![Checkout](images/html_validation_checkout.png)
+
+![Edit Product](images/html_validation_edit_product.png)
+
+![Equipment](images/html_validation_equipment.png)
+
+![Fitnessswear](images/html_validation_fitnesswear.png)
+
+![Login](images/html_validation_login.png)
+
+![Nutrition](images/html_validation_nutrition.png)
+
+![Products](images/html_validation_products.png)
+
+![Profile](images/html_validation_profile.png)
+
+![Signout](images/html_validation_signout.png)
+
+![Workout](images/html_validation_workout.png)
+
 <p align="center"><strong> CSS Validation</strong></p>
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation.
 
-[Validation Result]()
-
-<p align="center"><strong>Project Bugs and Solutions</strong></p>
-
-<p align="center"><strong>Remaining bugs</strong></p>
+[Validation Result](images/css_validation.png)
 
 ## Deployment:
 I did the following to deploy my site:
