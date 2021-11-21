@@ -98,12 +98,15 @@ Used for the collecting of and storing of staticfiles.
 [StackOverFlow](https://stackoverflow.com/) - used as a general resource for layout tips or questions.
 
 ## Testing:
+<p align="center"><strong>Manual Testing of the site</strong></p>
+
+<p align="center"><strong>User Stories Testing</strong></p>
+
+<p align="center"><strong>Site Responsiveness</strong></p>
 
 <p align="center"><strong> HTML Validation</strong></p>
 
 HTML - [W3C](https://validator.w3.org/) - Markup Validation.
-
-
 
 <p align="center"><strong> CSS Validation</strong></p>
 
